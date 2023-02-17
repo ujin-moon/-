@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5EEAE77F-A280-495A-A4EE-86E634BFC356}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Проект</RootNamespace>
+    <AssemblyName>Проект</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Google-Noto-Emoji-Symbols-73150-medical-symbol.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.1.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCategoryDiagnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCategoryDiagnos.Designer.cs">
+      <DependentUpon>AddCategoryDiagnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCategoryMedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCategoryMedicine.Designer.cs">
+      <DependentUpon>AddCategoryMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddChartView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddChartView.Designer.cs">
+      <DependentUpon>AddChartView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDiagnosis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDiagnosis.Designer.cs">
+      <DependentUpon>AddDiagnosis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDoctorCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDoctorCategory.Designer.cs">
+      <DependentUpon>AddDoctorCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDoctorWorkSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDoctorWorkSchedule.Designer.cs">
+      <DependentUpon>AddDoctorWorkSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployee.Designer.cs">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddMedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMedicine.Designer.cs">
+      <DependentUpon>AddMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNazDiagnosis1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNazDiagnosis1.Designer.cs">
+      <DependentUpon>AddNazDiagnosis1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNazMedicines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNazMedicines.Designer.cs">
+      <DependentUpon>AddNazMedicines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNazService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNazService.Designer.cs">
+      <DependentUpon>AddNazService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPatient.Designer.cs">
+      <DependentUpon>AddPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddServices.Designer.cs">
+      <DependentUpon>AddServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSpecialty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSpecialty.Designer.cs">
+      <DependentUpon>AddSpecialty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddThePatientRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddThePatientRecord.Designer.cs">
+      <DependentUpon>AddThePatientRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddThePatientRecord1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddThePatientRecord1.Designer.cs">
+      <DependentUpon>AddThePatientRecord1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChoiceChartView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoiceChartView.Designer.cs">
+      <DependentUpon>ChoiceChartView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChoiceMedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoiceMedicine.Designer.cs">
+      <DependentUpon>ChoiceMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChoicePatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoicePatient.Designer.cs">
+      <DependentUpon>ChoicePatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseCategoryDiagnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseCategoryDiagnos.Designer.cs">
+      <DependentUpon>ChooseCategoryDiagnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseCategoryMedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseCategoryMedicine.Designer.cs">
+      <DependentUpon>ChooseCategoryMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseDiagnosis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseDiagnosis.Designer.cs">
+      <DependentUpon>ChooseDiagnosis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseDoctor.Designer.cs">
+      <DependentUpon>ChooseDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseDoctorDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseDoctorDate.Designer.cs">
+      <DependentUpon>ChooseDoctorDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseDoctorDate1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseDoctorDate1.Designer.cs">
+      <DependentUpon>ChooseDoctorDate1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseDoctorСategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseDoctorСategory.Designer.cs">
+      <DependentUpon>ChooseDoctorСategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseService.Designer.cs">
+      <DependentUpon>ChooseService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseSpecialty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseSpecialty.Designer.cs">
+      <DependentUpon>ChooseSpecialty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectionClass.cs" />
+    <Compile Include="EditingDoctorWorkSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingDoctorWorkSchedule.Designer.cs">
+      <DependentUpon>EditingDoctorWorkSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingEmployee.Designer.cs">
+      <DependentUpon>EditingEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingPatient.Designer.cs">
+      <DependentUpon>EditingPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingThePatientRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingThePatientRecord.Designer.cs">
+      <DependentUpon>EditingThePatientRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EncryptionClass.cs" />
+    <Compile Include="FormAdministrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdministrator.Designer.cs">
+      <DependentUpon>FormAdministrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAuthorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAuthorization.Designer.cs">
+      <DependentUpon>FormAuthorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDelete.Designer.cs">
+      <DependentUpon>FormDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDoctor.Designer.cs">
+      <DependentUpon>FormDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormError.Designer.cs">
+      <DependentUpon>FormError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistrar.Designer.cs">
+      <DependentUpon>FormRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListCategoryDiagnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListCategoryDiagnos.Designer.cs">
+      <DependentUpon>ListCategoryDiagnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListCategoryMedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListCategoryMedicine.Designer.cs">
+      <DependentUpon>ListCategoryMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListChartView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListChartView.Designer.cs">
+      <DependentUpon>ListChartView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListDiagnosis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListDiagnosis.Designer.cs">
+      <DependentUpon>ListDiagnosis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListDoctorCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListDoctorCategory.Designer.cs">
+      <DependentUpon>ListDoctorCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListDoctorWorkSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListDoctorWorkSchedule.Designer.cs">
+      <DependentUpon>ListDoctorWorkSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListEmployee.Designer.cs">
+      <DependentUpon>ListEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListMedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListMedicine.Designer.cs">
+      <DependentUpon>ListMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListNazDiagnosis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListNazDiagnosis.Designer.cs">
+      <DependentUpon>ListNazDiagnosis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListNazMedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListNazMedicine.Designer.cs">
+      <DependentUpon>ListNazMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListNazServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListNazServices.Designer.cs">
+      <DependentUpon>ListNazServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListPatient.Designer.cs">
+      <DependentUpon>ListPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListPostanDiagnosis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListPostanDiagnosis.Designer.cs">
+      <DependentUpon>ListPostanDiagnosis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListServices.Designer.cs">
+      <DependentUpon>ListServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListSpecialty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListSpecialty.Designer.cs">
+      <DependentUpon>ListSpecialty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListThePatientRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListThePatientRecord.Designer.cs">
+      <DependentUpon>ListThePatientRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListThePatientRecord1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListThePatientRecord1.Designer.cs">
+      <DependentUpon>ListThePatientRecord1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintPatient.Designer.cs">
+      <DependentUpon>PrintPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintServices.Designer.cs">
+      <DependentUpon>PrintServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddCategoryDiagnos.resx">
+      <DependentUpon>AddCategoryDiagnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCategoryMedicine.resx">
+      <DependentUpon>AddCategoryMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddChartView.resx">
+      <DependentUpon>AddChartView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDiagnosis.resx">
+      <DependentUpon>AddDiagnosis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDoctorCategory.resx">
+      <DependentUpon>AddDoctorCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDoctorWorkSchedule.resx">
+      <DependentUpon>AddDoctorWorkSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployee.resx">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddMedicine.resx">
+      <DependentUpon>AddMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNazDiagnosis1.resx">
+      <DependentUpon>AddNazDiagnosis1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNazMedicines.resx">
+      <DependentUpon>AddNazMedicines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNazService.resx">
+      <DependentUpon>AddNazService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPatient.resx">
+      <DependentUpon>AddPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddServices.resx">
+      <DependentUpon>AddServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSpecialty.resx">
+      <DependentUpon>AddSpecialty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddThePatientRecord.resx">
+      <DependentUpon>AddThePatientRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddThePatientRecord1.resx">
+      <DependentUpon>AddThePatientRecord1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoiceChartView.resx">
+      <DependentUpon>ChoiceChartView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoiceMedicine.resx">
+      <DependentUpon>ChoiceMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoicePatient.resx">
+      <DependentUpon>ChoicePatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseCategoryDiagnos.resx">
+      <DependentUpon>ChooseCategoryDiagnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseCategoryMedicine.resx">
+      <DependentUpon>ChooseCategoryMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseDiagnosis.resx">
+      <DependentUpon>ChooseDiagnosis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseDoctor.resx">
+      <DependentUpon>ChooseDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseDoctorDate.resx">
+      <DependentUpon>ChooseDoctorDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseDoctorDate1.resx">
+      <DependentUpon>ChooseDoctorDate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseDoctorСategory.resx">
+      <DependentUpon>ChooseDoctorСategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseService.resx">
+      <DependentUpon>ChooseService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseSpecialty.resx">
+      <DependentUpon>ChooseSpecialty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingDoctorWorkSchedule.resx">
+      <DependentUpon>EditingDoctorWorkSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingEmployee.resx">
+      <DependentUpon>EditingEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingPatient.resx">
+      <DependentUpon>EditingPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingThePatientRecord.resx">
+      <DependentUpon>EditingThePatientRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdministrator.resx">
+      <DependentUpon>FormAdministrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAuthorization.resx">
+      <DependentUpon>FormAuthorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDelete.resx">
+      <DependentUpon>FormDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDoctor.resx">
+      <DependentUpon>FormDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormError.resx">
+      <DependentUpon>FormError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistrar.resx">
+      <DependentUpon>FormRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListChartView.resx">
+      <DependentUpon>ListChartView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListDiagnosis.resx">
+      <DependentUpon>ListDiagnosis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListDoctorCategory.resx">
+      <DependentUpon>ListDoctorCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListDoctorWorkSchedule.resx">
+      <DependentUpon>ListDoctorWorkSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListEmployee.resx">
+      <DependentUpon>ListEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListNazDiagnosis.resx">
+      <DependentUpon>ListNazDiagnosis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListNazMedicine.resx">
+      <DependentUpon>ListNazMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListNazServices.resx">
+      <DependentUpon>ListNazServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListPatient.resx">
+      <DependentUpon>ListPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListPostanDiagnosis.resx">
+      <DependentUpon>ListPostanDiagnosis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListServices.resx">
+      <DependentUpon>ListServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListSpecialty.resx">
+      <DependentUpon>ListSpecialty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListThePatientRecord.resx">
+      <DependentUpon>ListThePatientRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListThePatientRecord1.resx">
+      <DependentUpon>ListThePatientRecord1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintPatient.resx">
+      <DependentUpon>PrintPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintServices.resx">
+      <DependentUpon>PrintServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Логотип Авторизация.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Кнопка Выхода Для Авторизации.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Логин Авторизация.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Пароль Авторизация.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Ошибка.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\ICO для форм пользователей.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Menu-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Иконки для кнопок меню Администратора\Специальности.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Иконки для кнопок меню Администратора\Категории врачей.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Иконки для кнопок меню Администратора\Сотрудники.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Иконки для кнопок меню Администратора\Виды графиков.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Иконки для кнопок меню Администратора\Графики работы врачей.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Иконки для кнопок меню Администратора\Услуги.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Пользователь.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\СменитьПользователя.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Выход.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Уменьшить.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Свернуть.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\На весь экран.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Поиск.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Удаление.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Добавление.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Сохранение.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\ДобавлениеФорма.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Отмена.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\ОтменаZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Внимание.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Редактирование.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Выбрать.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\КнопкаВыбратьZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\ВыбратьКнопка.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\ДобавлениеZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\РедактированиеФорма.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Пациент.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\ВремяПриёма.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Запись.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\ПоскановкаДиагноза.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Лекарства.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Диагнозы.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\КатДиагноза.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\КатЛекарств.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Назад.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Иконки\Отчёт.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Google-Noto-Emoji-Symbols-73150-medical-symbol.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

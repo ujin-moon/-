@@ -1,0 +1,201 @@
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\bin\Debug\Проект.exe
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\bin\Debug\Проект.pdb
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.csprojAssemblyReference.cache
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.Properties.Resources.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.csproj.GenerateResource.cache
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.csproj.CoreCompileInputs.cache
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.csproj.CopyComplete
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.exe
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.pdb
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.FormAdministrator.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.FormAuthorization.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ListSpecialty.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\bin\Debug\MetroFramework.Design.dll
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\bin\Debug\MetroFramework.dll
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\bin\Debug\MetroFramework.Fonts.dll
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddSpecialty.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\bin\Debug\Проект.exe.config
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.FormDelete.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.FormError.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddDoctorCategory.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ListDoctorCategory.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ListEmployee.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddEmployee.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ChooseSpecialty.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ChooseDoctorСategory.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.EditingEmployee.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddChartView.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ListDoctorWorkSchedule.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddDoctorWorkSchedule.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ChooseDoctor.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ChoiceChartView.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ListChartView.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.EditingDoctorWorkSchedule.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ListServices.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddServices.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.FormRegistrar.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddPatient.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ListPatient.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.EditingPatient.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.PrintServices.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddThePatientRecord1.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ChooseDoctorDate.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddThePatientRecord.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ChooseDoctorDate1.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ListThePatientRecord.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ChoicePatient.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.EditingThePatientRecord.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.FormDoctor.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddCategoryDiagnos.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddDiagnosis.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ChooseCategoryDiagnos.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ListDiagnosis.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddCategoryMedicine.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.PrintPatient.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddMedicine.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ChooseCategoryMedicine.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ListPostanDiagnosis.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ListNazDiagnosis.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddNazDiagnosis1.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ChooseDiagnosis.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddNazMedicines.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ChoiceMedicine.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ListNazMedicine.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ListNazServices.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.AddNazService.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ChooseService.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\Проект\obj\Debug\Проект.ListThePatientRecord1.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\bin\Debug\Проект.exe.config
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\bin\Debug\Проект.exe
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\bin\Debug\Проект.pdb
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\bin\Debug\MetroFramework.Design.dll
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\bin\Debug\MetroFramework.dll
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\bin\Debug\MetroFramework.Fonts.dll
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.csprojAssemblyReference.cache
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddCategoryDiagnos.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddCategoryMedicine.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddChartView.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddDiagnosis.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddDoctorCategory.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddDoctorWorkSchedule.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddEmployee.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddMedicine.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddNazDiagnosis1.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddNazMedicines.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddNazService.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddPatient.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddServices.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddSpecialty.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddThePatientRecord.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.AddThePatientRecord1.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ChoiceChartView.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ChoiceMedicine.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ChoicePatient.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ChooseCategoryDiagnos.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ChooseCategoryMedicine.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ChooseDiagnosis.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ChooseDoctor.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ChooseDoctorDate.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ChooseDoctorDate1.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ChooseDoctorСategory.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ChooseService.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ChooseSpecialty.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.EditingDoctorWorkSchedule.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.EditingEmployee.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.EditingPatient.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.EditingThePatientRecord.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.FormAdministrator.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.FormAuthorization.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.FormDelete.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.FormDoctor.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.FormError.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.FormRegistrar.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ListChartView.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ListDiagnosis.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ListDoctorCategory.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ListDoctorWorkSchedule.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ListEmployee.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ListNazDiagnosis.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ListNazMedicine.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ListNazServices.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ListPatient.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ListPostanDiagnosis.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ListServices.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ListSpecialty.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ListThePatientRecord.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.ListThePatientRecord1.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.PrintPatient.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.PrintServices.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.Properties.Resources.resources
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.csproj.GenerateResource.cache
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.csproj.CoreCompileInputs.cache
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.csproj.CopyComplete
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.exe
+D:\ПРОГРАММИРОВАНИЕ\1 _ Дипломный проект\1_ДИСК\PRG\Проект\obj\Debug\Проект.pdb
+D:\Курбака\PRG\Проект\bin\Debug\Проект.exe.config
+D:\Курбака\PRG\Проект\bin\Debug\Проект.exe
+D:\Курбака\PRG\Проект\bin\Debug\Проект.pdb
+D:\Курбака\PRG\Проект\bin\Debug\MetroFramework.Design.dll
+D:\Курбака\PRG\Проект\bin\Debug\MetroFramework.dll
+D:\Курбака\PRG\Проект\bin\Debug\MetroFramework.Fonts.dll
+D:\Курбака\PRG\Проект\obj\Debug\Проект.csproj.AssemblyReference.cache
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddCategoryDiagnos.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddCategoryMedicine.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddChartView.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddDiagnosis.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddDoctorCategory.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddDoctorWorkSchedule.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddEmployee.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddMedicine.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddNazDiagnosis1.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddNazMedicines.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddNazService.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddPatient.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddServices.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddSpecialty.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddThePatientRecord.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.AddThePatientRecord1.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ChoiceChartView.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ChoiceMedicine.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ChoicePatient.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ChooseCategoryDiagnos.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ChooseCategoryMedicine.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ChooseDiagnosis.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ChooseDoctor.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ChooseDoctorDate.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ChooseDoctorDate1.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ChooseDoctorСategory.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ChooseService.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ChooseSpecialty.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.EditingDoctorWorkSchedule.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.EditingEmployee.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.EditingPatient.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.EditingThePatientRecord.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.FormAdministrator.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.FormAuthorization.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.FormDelete.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.FormDoctor.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.FormError.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.FormRegistrar.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ListChartView.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ListDiagnosis.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ListDoctorCategory.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ListDoctorWorkSchedule.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ListEmployee.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ListNazDiagnosis.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ListNazMedicine.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ListNazServices.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ListPatient.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ListPostanDiagnosis.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ListServices.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ListSpecialty.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ListThePatientRecord.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.ListThePatientRecord1.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.PrintPatient.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.PrintServices.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.Properties.Resources.resources
+D:\Курбака\PRG\Проект\obj\Debug\Проект.csproj.GenerateResource.cache
+D:\Курбака\PRG\Проект\obj\Debug\Проект.csproj.CoreCompileInputs.cache
+D:\Курбака\PRG\Проект\obj\Debug\Проект.csproj.CopyComplete
+D:\Курбака\PRG\Проект\obj\Debug\Проект.exe
+D:\Курбака\PRG\Проект\obj\Debug\Проект.pdb

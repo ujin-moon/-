@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>TITLE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	
+	<link href="https://fonts.googleapis.com/css?family=Playball%7CBitter" rel="stylesheet">
+
+	<link href="03-regular-page/css/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/contact.css">
+	<script>
+        var prependData = $('#header').children().first()[0];
+        var prependedData = $('#header').children().last()[0];
+        var list = $(document).getElementById("header");
+        console.log( "документ загружен" );
+        $(list).insertBefore(prependData, prependedData);
+        var m = $('#main').children().first()[0];
+        var n = $('#main').children().last()[0];
+        var list1 = $(document).getElementById("main");
+        console.log( "документ загружен" );
+        $(list1).insertBefore(m, n);
+            </script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+
+	<script>
+		var months = new Array(13);
+		months[1]="января"; months[2]="февраля"; months[3]="марта"; months[4]="апреля"; months[5]="мая"; months[6]="июня"; months[7]="июля"; months[8]="августа"; months[9]="сентября"; months[10]="октября"; months[11]="ноября"; months[12]="декабря";
+	  
+		var time = new Date();
+		var thismonth = months[time.getMonth() + 1];
+		var date = time.getDate();
+		var thisyear = time.getYear();
+		var day = time.getDay() + 1;
+	  
+		if (thisyear < 2000)
+			thisyear = thisyear + 1900;
+		if (day == 1) DayofWeek = "Воскресенье";
+		if (day == 2) DayofWeek = "Понедельник";
+		if (day == 3) DayofWeek = "Вторник";
+		if (day == 4) DayofWeek = "Среда";
+		if (day == 5) DayofWeek = "Четверг";
+		if (day == 6) DayofWeek = "Пятница";
+		if (day == 7) DayofWeek = "Суббота";
+	  </script>
+				  
+	  <script>           
+	  setInterval(function() {
+		var cd = new Date();
+		var clockdat = document.getElementById("clockdat");
+		clockdat.innerHTML = cd.toLocaleTimeString();
+	  }, 1000);
+	  </script>
+
+</head>
+<body>
+	
+	<footer>
+		<div class="container center-text">
+			<div class="container">
+				
+				<div class="menu-nav-icon" data-nav-menu="#main-menu"><i class="icon icon-bars"></i></div>
+				<div class="center" style="background-color: #494a3b; padding:5px;">
+					<span style="color:aqua">Сегодня:</span>
+					<span style="color:silver; font-size:14px;">
+					<script>
+						document.write(date+" ");
+						document.write(thismonth+ " "+thisyear+" "+"года"+" — "+ DayofWeek);
+					</script>
+					(<span id="clockdat" style="color:aqua;"></span>)
+					</span>
+				  </div>
+				<ul class="main-menu visible-on-click" id="main-menu">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="Rent.html">Арендовать платье</a></li>
+					<li><a href="Gallery.html">Наша галерея</a></li>
+					<li><a href="About.html">О нас</a></li>
+				</ul>
+				
+			</div>
+			<div>
+				<a href="index.html"><img src="images/sv_kolca.png" style ="width: 100px; height: 100px"></a> <br>
+			</div>
+			<div class="newsletter">
+				<h4 class="title">Наши контакты</h4>
+				<p style="text-align: center; color: red; size: 24px">+375(29)555-35-35</p>
+				<p style="text-align: center;">Компания Седина Евгения работает с 1999 года</p>
+				<p style="text-align: center;">С нами вы сможете построить свою крепкую семью)</p>
+			</div>	
+			<main>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2260.2173841057456!2d28.76502871574107!3d55.49373711941025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c48e222cbe88df%3A0xdd4d304109132e87!2z0J_QvtC70L7RhtC60LjQuSDQs9C-0YHRg9C00LDRgNGB0YLQstC10L3QvdGL0Lkg0Y3QutC-0L3QvtC80LjRh9C10YHQutC40Lkg0LrQvtC70LvQtdC00LY!5e0!3m2!1sru!2sby!4v1654289194124!5m2!1sru!2sby" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		
+				<form action="">
+					<input type="text" placeholder="ФИО*" id="fio">
+					<input type="text" placeholder="E-mail*" id="eml">
+					<input type="text" placeholder="Номер телефона*" id="phn">
+					<textarea name="txt-box" id="txt" placeholder="Текст сообщения*" cols="30" rows="10"></textarea>
+					<button id="btn" onclick="CheckFormData(); return false;">Отправить</button>
+					<p id="errorText" style="margin-left: 20px; color: rgb(0, 0, 0)"></p>
+				</form>
+			</main>
+			<div>
+				<p class="thumb">
+					<a href="https://www.instagram.com/"><img src="images/ig.png" style ="width: 75px; height:75px;"></a>
+					<a href="https://vk.com/feed"><img src="images/vk.png" style ="width: 75px; height:75px;"></a>
+					<a href="https://twitter.com/?lang=ru"><img src="images/twt.png" style ="width: 75px; height:75px;"></a>
+				</p>
+			</div>			
+		</footer>
+		<script src="jquery-3.6.0.min.js"></script>
+		<script src="contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/contact.css">
+	<title>UristCompany - О нас</title>
+</head>
+<body>
+
+	<header>
+		<div style="height: 60px; display: flex; flex-direction: row; align-items: center; margin-top: 5px;">
+			<img style="position: relative; height: 100%; cursor: pointer;" src="images/logo.png">
+			<h1 style="color: #FFFFFF; text-shadow: 0 0 5px #000; margin-left: 20px;"><a href="index.html" style="text-decoration: none; color: #fff">UristCompany</a></h1>
+			<nav>
+				<a href="tel:;" class="tel" class="nav-selected">+375 (00) 0000 000</a>
+				<a href="index.html">Главная</a>
+				<a href="services.html">Услуги</a>
+				<a href="news.html">Новости</a>
+				<a href="about.html">О нас</a>
+			</nav>
+		</div>
+	</header>
+
+
+	<main>
+		<h1 class="label-text">Обратная связь</h1>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2260.2173841057456!2d28.76502871574107!3d55.49373711941025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c48e222cbe88df%3A0xdd4d304109132e87!2z0J_QvtC70L7RhtC60LjQuSDQs9C-0YHRg9C00LDRgNGB0YLQstC10L3QvdGL0Lkg0Y3QutC-0L3QvtC80LjRh9C10YHQutC40Lkg0LrQvtC70LvQtdC00LY!5e0!3m2!1sru!2sby!4v1654289194124!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+		<form action="">
+			<input type="text" placeholder="ФИО*" id="fio">
+			<input type="text" placeholder="E-mail*" id="eml">
+			<input type="text" placeholder="Номер телефона*" id="phn">
+			<textarea name="txt-box" id="txt" placeholder="Текст сообщения*" cols="30" rows="10"></textarea>
+			<button id="btn" onclick="CheckFormData(); return false;">Отправить</button>
+			<p id="errorText" style="margin-left: 20px; color: #fff"></p>
+		</form>
+	</main>
+
+
+	<footer>
+		UristCompany (©) - 2022
+	</footer>
+
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="contact.js"></script>
+</body>
+</html>

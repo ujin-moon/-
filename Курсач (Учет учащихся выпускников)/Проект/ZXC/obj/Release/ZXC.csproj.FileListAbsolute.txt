@@ -1,0 +1,20 @@
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.csproj.AssemblyReference.cache
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.csproj.SuggestedBindingRedirects.cache
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.AddDist.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.AddOrg.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.AddRasp.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.AddRerasp.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.AddSpec.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.AddSred.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.AddStudent.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.AddYear.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.AddZay.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.Form1.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.Properties.Resources.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.csproj.GenerateResource.cache
+C:\Users\omnisu\Desktop\ZXC\obj\Release\ZXC.csproj.CoreCompileInputs.cache
+C:\Users\omnisu\Desktop\ZXC\bin\Release\Седин, Курсовая по БД.exe.config
+C:\Users\omnisu\Desktop\ZXC\bin\Release\Седин, Курсовая по БД.exe
+C:\Users\omnisu\Desktop\ZXC\bin\Release\Седин, Курсовая по БД.pdb
+C:\Users\omnisu\Desktop\ZXC\obj\Release\Седин, Курсовая по БД.exe
+C:\Users\omnisu\Desktop\ZXC\obj\Release\Седин, Курсовая по БД.pdb

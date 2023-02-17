@@ -1,0 +1,51 @@
+C:\Users\evgen\OneDrive\Рабочий стол\ZXC\bin\Debug\ZXC.exe.config
+C:\Users\evgen\OneDrive\Рабочий стол\ZXC\bin\Debug\ZXC.exe
+C:\Users\evgen\OneDrive\Рабочий стол\ZXC\bin\Debug\ZXC.pdb
+C:\Users\evgen\OneDrive\Рабочий стол\ZXC\obj\Debug\ZXC.csproj.AssemblyReference.cache
+C:\Users\evgen\OneDrive\Рабочий стол\ZXC\obj\Debug\ZXC.csproj.SuggestedBindingRedirects.cache
+C:\Users\evgen\OneDrive\Рабочий стол\ZXC\obj\Debug\ZXC.Form1.resources
+C:\Users\evgen\OneDrive\Рабочий стол\ZXC\obj\Debug\ZXC.Properties.Resources.resources
+C:\Users\evgen\OneDrive\Рабочий стол\ZXC\obj\Debug\ZXC.csproj.GenerateResource.cache
+C:\Users\evgen\OneDrive\Рабочий стол\ZXC\obj\Debug\ZXC.csproj.CoreCompileInputs.cache
+C:\Users\evgen\OneDrive\Рабочий стол\ZXC\obj\Debug\ZXC.exe
+C:\Users\evgen\OneDrive\Рабочий стол\ZXC\obj\Debug\ZXC.pdb
+C:\Users\evgen\OneDrive\Рабочий стол\ZXC\obj\Debug\ZXC.AddStudent.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.csproj.AssemblyReference.cache
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.csproj.SuggestedBindingRedirects.cache
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.AddStudent.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.Form1.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.Properties.Resources.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.csproj.GenerateResource.cache
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.csproj.CoreCompileInputs.cache
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.exe
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.pdb
+C:\Users\omnisu\Desktop\ZXC\bin\Debug\ZXC.exe.config
+C:\Users\omnisu\Desktop\ZXC\bin\Debug\ZXC.exe
+C:\Users\omnisu\Desktop\ZXC\bin\Debug\ZXC.pdb
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.AddDist.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.AddSpec.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.AddYear.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.AddSred.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.AddOrg.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.AddZay.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.AddRasp.resources
+C:\Users\omnisu\Desktop\ZXC\obj\Debug\ZXC.AddRerasp.resources
+D:\Учеба\4 курс\Диплом\ZXC\bin\Debug\Седин, Курсовая по БД.exe.config
+D:\Учеба\4 курс\Диплом\ZXC\bin\Debug\Седин, Курсовая по БД.exe
+D:\Учеба\4 курс\Диплом\ZXC\bin\Debug\Седин, Курсовая по БД.pdb
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\ZXC.csproj.AssemblyReference.cache
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\ZXC.AddDist.resources
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\ZXC.AddOrg.resources
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\ZXC.AddRasp.resources
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\ZXC.AddRerasp.resources
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\ZXC.AddSpec.resources
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\ZXC.AddSred.resources
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\ZXC.AddStudent.resources
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\ZXC.AddYear.resources
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\ZXC.AddZay.resources
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\ZXC.Form1.resources
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\ZXC.Properties.Resources.resources
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\ZXC.csproj.GenerateResource.cache
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\ZXC.csproj.CoreCompileInputs.cache
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\Седин, Курсовая по БД.exe
+D:\Учеба\4 курс\Диплом\ZXC\obj\Debug\Седин, Курсовая по БД.pdb

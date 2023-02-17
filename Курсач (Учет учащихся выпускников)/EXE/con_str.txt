@@ -1,0 +1,1 @@
+Data Source=DESKTOP-VNESDBC\SQLEXPRESS;Initial Catalog="Учет выпускников колледжа #2";Integrated Security=True
