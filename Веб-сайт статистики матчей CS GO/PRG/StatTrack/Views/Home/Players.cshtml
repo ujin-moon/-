@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Players";
+    <title>★StatTack - @ViewBag.Title</title>
+}
+@{
+    List<StatTrack.Models.Player> pl_l = (List<StatTrack.Models.Player>)ViewData["PlayersList"];
+}
+<div class="page-heading contact-heading header-text">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-content">
+                    <h4>Players</h4>
+                    <h2>What's your favourite player stat is like</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><h1 style="text-align:center;margin-bottom:35px">PLAYERS LIST</h1></div>
+            <div class="col-md-12">
+                @using (Html.BeginForm())
+                {
+                    <h6 style="text-align: right; margin-bottom: 15px">
+                        Find by nickname: @Html.TextBox("SearchString")
+                        <input type="submit" value="Search" />
+                    </h6>
+                }
+            </div>
+            <div class="col-md-12" style="margin-top: 15px">
+                @{
+                    int count = 0;
+                    foreach (var pl in pl_l)
+                    {
+                        <h3>@pl.ID. @Html.ActionLink(pl.Nickname, "Players", "Home", new { }, new { })</h3>
+                        count++;
+
+                        if (count == 5)
+                        {
+                            count = 0;
+                            <hr />
+                        }
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>

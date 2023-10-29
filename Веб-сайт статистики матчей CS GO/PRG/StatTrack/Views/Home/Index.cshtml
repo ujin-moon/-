@@ -1,0 +1,59 @@
+﻿@model IEnumerable<StatTrack.Models.StatContext>
+@{
+    ViewBag.Title = "Home";
+    <title>★StatTack - @ViewBag.Title</title>
+}
+
+<div class="banner header-text">
+    <div class="owl-banner owl-carousel">
+        <div class="banner-item-01">
+            <div class="text-content">
+                <h4>Tournaments</h4>
+                <h2>Find out faster</h2>
+            </div>
+        </div>
+        <div class="banner-item-02">
+            <div class="text-content">
+                <h4>Teams</h4>
+                <h2>Best of all over the world</h2>
+            </div>
+        </div>
+        <div class="banner-item-03">
+            <div class="text-content">
+                <h4>Players</h4>
+                <h2>Deep statistics</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="latest-products">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <h2>BEST TEAM</h2>
+                </div>
+            </div>
+                @{ 
+                    List<StatTrack.Models.Team> tl = (List<StatTrack.Models.Team>)ViewData["TeamList"];
+                    <div class="col-md-12">
+                        <h2><img class="team_logo" src="../Content/assets/images/team_logo/1.png" style="border: none; width: 50px; height: auto"/> @tl[0].Name</h2><br />
+                    </div>
+                    List<StatTrack.Models.Player> pl_l = (List<StatTrack.Models.Player>)ViewData["PlayersList"];
+                    for (int i = 0; i < 5; i++)
+                    {
+                        string path = "../Content/assets/images/players_image/" + pl_l[i].ID + ".png";
+                        <div class="col-md-4" style="margin-top:20px"><img src="@path"/></div>
+                        <div class="col-md-4" style="margin-top:20px">
+                            <h3 style="padding-left:50px">@pl_l[i].Nickname</h3><br />
+                            <h4>@pl_l[i].Name @pl_l[i].Surname</h4>
+                            <h4>Страна: @pl_l[i].Country</h4>
+                            <h4>Возраст: @pl_l[i].Age</h4>
+                            <h4>Роль: @pl_l[i].Role</h4>
+                        </div>
+                        <div class="col-md-4" style="margin-top:20px"><h3>Statistics</h3></div>
+                    }                    
+                 }
+        </div>
+    </div>
+</div>

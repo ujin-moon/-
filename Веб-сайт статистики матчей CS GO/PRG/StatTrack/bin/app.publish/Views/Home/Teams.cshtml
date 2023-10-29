@@ -1,0 +1,98 @@
+﻿@{
+    ViewBag.Title = "Teams";
+    <title>★StatTack - @ViewBag.Title</title>
+}
+@{ 
+    List<StatTrack.Models.Team> tl = (List<StatTrack.Models.Team>)ViewData["TeamList"];
+    List<StatTrack.Models.Player> pl_l = (List<StatTrack.Models.Player>)ViewData["PlayersList"];
+    List<StatTrack.Models.TeamPlayer> tpl = (List<StatTrack.Models.TeamPlayer>)ViewData["TeamPlayerList"];
+
+    int page = (int)ViewData["Page"];
+    string srtordr = ViewData["SortOrder"].ToString();
+}
+
+<div class="page-heading products-heading header-text">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-content">
+                    <h4>Teams</h4>
+                    <h2>Best of the best</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@{<div class="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="pages">
+                    <li style="width:100px">
+                        @Html.ActionLink("A-Z", "Teams", "Home", new { page = "0", sortOrder = "A-Z" }, new { })
+                        @Html.ActionLink("Z-A", "Teams", "Home", new { page = "0", sortOrder = "Z-A" }, new { })
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-12">
+                <div class="Refresh-button" style="text-align:right">
+                    @Html.ActionLink("Refresh", "Teams", "Home", new { page = "0", sortOrder = "default" }, new { })
+                </div>
+            </div>
+            @{
+                for (int i = page; i < page + 3; i++)
+                {
+                    string path = "../Content/assets/images/team_logo/" + tl[i].ID + ".png";
+                    <div class="col-md-4" style="margin-top:20px; border:1px solid black">
+                        <h2>@tl[i].Name <img style="width:50px;height:44px; border:none" src="@path" /></h2><hr />
+                        @{
+                            for (int j = 0; j < tpl.Count; j++)
+                            {
+                                if (tl[i].ID == tpl[j].Team_ID)
+                                {
+                                    for (int k = j; k < j + 5; k++)
+                                    {
+                                        <h4>@pl_l[k].Nickname</h4>
+                                    }
+                                    break;
+                                }
+                            }
+                        }
+                    </div>
+                            }
+            }
+            <div class="col-md-12">
+                <ul class="pages">
+                    <li>
+                        @{
+                            int nextpage = 0;
+                            if (page + 3 > tl.Count - 3)
+                            {
+                                nextpage = tl.Count - 3;
+                            }
+                            else
+                            {
+                                nextpage = page + 3;
+                            }
+
+                            int prevpage = 0;
+                            if (page - 3 < 0)
+                            {
+                                prevpage = 0;
+                            }
+                            else
+                            {
+                                prevpage = page - 3;
+                            }
+                        }
+                        @Html.ActionLink("<<", "Teams", "Home", new { page = prevpage, sortOrder = srtordr }, new {})
+
+                    </li>
+                    <li>
+                        @Html.ActionLink(">>", "Teams", "Home", new { page = nextpage , sortOrder = srtordr }, new {})
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>}

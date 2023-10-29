@@ -1,0 +1,39 @@
+﻿@model IEnumerable<StatTrack.Models.Auth>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Authefication";
+    <title>★StatTack - @ViewBag.Title</title>
+}
+@{
+
+}
+
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-content">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><h1 style="text-align:center;margin-bottom:35px">Authefication</h1></div>
+            <div class="col-md-12" style="text-align:center;">
+                @using (Html.BeginForm("Administration","Home"))
+                { 
+                    <h5 style="padding-bottom: 10px;padding-right:63px">Login: @Html.TextBox("Login")</h5>
+                    <h5 style="padding-bottom: 10px; padding-right:106px">Password: @Html.Password("Password")</h5>
+                    <input type="submit" value="Accept" style="width:252px"/>
+                }
+            </div>
+        </div>
+    </div>
+</div>

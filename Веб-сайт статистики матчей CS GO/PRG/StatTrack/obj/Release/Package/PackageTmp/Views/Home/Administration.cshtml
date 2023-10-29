@@ -1,0 +1,206 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Administration";
+    <title>★StatTack - @ViewBag.Title</title>
+    StatTrack.Models.StatContext db = (StatTrack.Models.StatContext)ViewData["db"];   
+}
+
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-content">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    tr,td,table{
+        border: 2px solid black;
+        font-weight:bold;
+    }
+    table{
+        width:100%;
+    }
+    .addtable{
+        width:auto;
+        text-align:center;
+        border-radius:10px
+    }
+    .MainTr {
+        background-color: DimGray;
+    }
+    .tr:hover {
+        background: #f3bd48;
+        color: #fff;
+    }
+    hr {
+        border: 0;
+        height: 5px;
+        background: #000;
+        background-image: -webkit-linear-gradient(left, #fff, #000, #fff);
+        background-image: -moz-linear-gradient(left, #fff, #000, #fff);
+        background-image: -ms-linear-gradient(left, #fff, #000, #fff);
+        background-image: -o-linear-gradient(left, #fff, #000, #fff);
+    }
+</style>
+
+<div class="products">
+    <div class="container">
+        <div class="row">
+            @* Teams table *@
+            <div class="col-md-12" style="text-align:center;"><h1>Команды</h1></div>
+            <div class="col-md-12">
+                <table>
+                    <tr class="MainTr">
+                        <td>ID</td>
+                        <td>NAME</td>
+                    </tr>
+                    @{
+                        foreach (var t in db.Teams)
+                        {
+                            <tr class="tr">
+                                <td>@t.ID</td>
+                                <td>@t.Name</td>
+                            </tr>
+                        }
+                    }
+                </table>
+            </div>
+            <div class="col-md-12">
+                <br /><h4>Добавление</h4>
+                @using (Html.BeginForm("AddTeam", "Home"))
+                {
+                    <table class="addtable">
+                        <tr class="MainTr">
+                            <td>NAME</td>
+                        </tr>
+                        <tr>
+                            <td>@Html.TextBox("NameAdd")</td>
+                            <td><input type="submit" value="Add" /></td>
+                        </tr>
+                    </table>
+                }
+            </div>
+            <div class="col-md-12">
+                <br /><h4>Редактирование</h4>
+                @using (Html.BeginForm("EditTeam", "Home"))
+                {
+                    <table class="addtable">
+                        <tr class="MainTr">
+                            <td>ID</td>
+                            <td>NAME</td>
+                        </tr>
+                        <tr>
+                            <td>@Html.TextBox("ID",null, new { style = "width:50px" })</td>
+                            <td>@Html.TextBox("NameEdit")</td>
+                            <td><input type="submit" value="Edit" /></td>
+                        </tr>
+                    </table>
+                }
+                <br /><br /><hr/><br /><br/>
+            </div>
+            @* Playes table *@
+            <div class="col-md-12" style="text-align:center"><h1>Игроки</h1></div>
+            <div class="col-md-12">
+                <table>
+                    <tr class="MainTr">
+                        <td>ID</td>
+                        <td>NICKNAME</td>
+                        <td>NAME</td>
+                        <td>SURNAME</td>
+                        <td>AGE</td>
+                        <td>COUNTRY</td>
+                        <td>ROLE</td>
+                    </tr>
+                    @{
+                        foreach (var p in db.Players)
+                        {
+                            <tr class="tr">
+                                <td>@p.ID</td>
+                                <td>@p.Nickname</td>
+                                <td>@p.Name</td>
+                                <td>@p.Surname</td>
+                                <td>@p.Age</td>
+                                <td>@p.Country</td>
+                                <td>@p.Role</td>
+                            </tr>
+                        }
+                    }
+                </table>
+            </div>
+            <div class="col-md-12">
+                <br /><h4>Добавление</h4>
+                @using (Html.BeginForm("AddPlayer", "Home"))
+                {
+                    <table class="addtable">
+                        <tr class="MainTr">
+                            <td>NICKNAME</td>
+                            <td>NAME</td>
+                            <td>SURNAME</td>
+                            <td>AGE</td>
+                            <td>COUNTRY</td>
+                            <td>ROLE</td>
+                        </tr>
+                        <tr>
+                            <td>@Html.TextBox("Nickname")</td>
+                            <td>@Html.TextBox("NamePlayer")</td>
+                            <td>@Html.TextBox("Surname")</td>
+                            <td>@Html.TextBox("Age", null, new { style = "width:50px" })</td>
+                            <td>@Html.TextBox("Country")</td>
+                            <td>@Html.DropDownList("Role",
+                                    new SelectList(Enum.GetValues(typeof(StatTrack.Models.Role))),
+                                    "Select Role")</td>
+                            <td><input type="submit" value="Add" /></td>
+                        </tr>
+                    </table>
+                }
+            </div>
+            <div class="col-md-12">
+                <br /><h4>Редактирование</h4>
+                @using (Html.BeginForm("EditPlayer", "Home"))
+                {
+                    <table class="addtable">
+                        <tr class="MainTr">
+                            <td>ID</td>
+                            <td>NAME</td>
+                        </tr>
+                        <tr>
+                            <td>@Html.TextBox("IDPlayer",null,new { style="width:50px"})</td>
+                            <td>@Html.TextBox("NicknameE")</td>
+                            <td>@Html.TextBox("NamePlayerE")</td>
+                            <td>@Html.TextBox("SurnameE")</td>
+                            <td>@Html.TextBox("AgeE", null, new { style = "width:50px" })</td>
+                            <td>@Html.TextBox("CountryE")</td>
+                            <td>@Html.DropDownList("RoleE",
+                                    new SelectList(Enum.GetValues(typeof(StatTrack.Models.Role))),
+                                    "Select Role")</td>
+                            <td><input type="submit" value="Edit" /></td>
+                        </tr>
+                    </table>
+                }
+            </div>
+            <div class="col-md-12">
+                <br /><h4>Удаление</h4>
+                @using (Html.BeginForm("DeletePlayer", "Home"))
+                {
+                    <table class="addtable">
+                        <tr class="MainTr">
+                            <td>ID</td>
+                        </tr>
+                        <tr>
+                            <td>@Html.TextBox("IDPlayerDelete",null,new { style="width:50px"})</td>
+                            <td><input type="submit" value="Delete" /></td>
+                        </tr>
+                    </table>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
